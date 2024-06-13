@@ -1,0 +1,66 @@
+@import url('reset.css');
+@import url('fonts.css');
+
+body {
+  font-family:'Montserrat';
+  padding: 50px;
+  background: url('/images/unnamed.png') center/cover;
+}
+
+.containerOne {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  gap: 15px;
+  padding: 50px;
+  border-radius: 12px;
+  border: 4px solid black;
+  position: relative;
+  background: rgba(0, 0, 0, 0.292);
+  color: aliceblue;
+  font-size: 18px;
+
+  @media (max-width: 550px) {
+    background: transparent;
+    border: transparent;
+  }
+}
+
+.containerOne__title {
+  font-size: 35px;
+
+}
+
+.spanLine {
+  width: 200px;
+  border-bottom: 4px solid yellow;
+  border-radius: 12px;
+}
+
+.containerOne__subTitle, .containerTwo__subTitle, .containerThree__subTitle {
+  color: yellow;
+}
+
+.getPromptButton, .buttonShowResult {
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: none;
+}
+
+.buttonShowResult {
+  display: none;
+}
+
+.containerTwo {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+  padding: 50px;
+  color: rgb(255, 255, 255);
+  display: none;
+}
+
