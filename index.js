@@ -63,6 +63,7 @@ function showPrompt(){
 
   math.check(obj);
   document.querySelector('.containerTwo').style.display = 'flex';
+  document.querySelector('.body').style.background = 'url(images/6204503.jpg) center/cover';
 }
 
 
